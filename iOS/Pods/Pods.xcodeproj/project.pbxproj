@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250EACD36F1A2F5C1D053696030A9988 /* Pods-MORY_mvp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85C434239D736D5B9C11E24F7AF76E4 /* Pods-MORY_mvp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E18782740C37AE01D241946A24957D /* Pods-MORY_mvp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C968B4CA8CA310A88F2D19AA7DEFC09C /* Pods-MORY_mvp-dummy.m */; };
+		9208D5B22622E4A8368B56389137CECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05AEB6653F5754535FF6F78344169C3D /* SKWPeerCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWPeerCredential.h; path = SkyWay.framework/Headers/SKWPeerCredential.h; sourceTree = "<group>"; };
+		063962C21EFE62867D7A2B1D1AB1CBFA /* SKWPeerError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWPeerError.h; path = SkyWay.framework/Headers/SKWPeerError.h; sourceTree = "<group>"; };
+		08B0DEA7B955D5B4551E34BEC7E003B7 /* SKWDataConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWDataConnection.h; path = SkyWay.framework/Headers/SKWDataConnection.h; sourceTree = "<group>"; };
+		097C519660F3753229EA2B134E80E182 /* Pods-MORY_mvp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MORY_mvp.debug.xcconfig"; sourceTree = "<group>"; };
+		0D4A3D865ACC719EC679718C8BBA0102 /* SKWRoomOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWRoomOption.h; path = SkyWay.framework/Headers/SKWRoomOption.h; sourceTree = "<group>"; };
+		16E04EB1670B17B5CF80E72BFB0096B9 /* SKWConnectOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWConnectOption.h; path = SkyWay.framework/Headers/SKWConnectOption.h; sourceTree = "<group>"; };
+		17F46AFED1B78AEBCA6ACB324FDAFD38 /* Pods-MORY_mvp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MORY_mvp.modulemap"; sourceTree = "<group>"; };
+		1D158CE7EBD00E38F5277C21A2A1E7F2 /* SKWMediaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWMediaStream.h; path = SkyWay.framework/Headers/SKWMediaStream.h; sourceTree = "<group>"; };
+		1E7F763AAE8AB1926C18E35E0A54EDDC /* SKWCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWCommon.h; path = SkyWay.framework/Headers/SKWCommon.h; sourceTree = "<group>"; };
+		27C04C530493673EBA0DEDDA4DB268EA /* Pods-MORY_mvp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MORY_mvp-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D530C6D2BD5F2F43C202658E3E86C92 /* SKWPeerOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWPeerOption.h; path = SkyWay.framework/Headers/SKWPeerOption.h; sourceTree = "<group>"; };
+		5E8782930EEC4BF72D50AABB6DC7DDFA /* SKWHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWHeaders.h; path = SkyWay.framework/Headers/SKWHeaders.h; sourceTree = "<group>"; };
+		67FAEA1ADB85AFBC6E8345214C38572B /* SKWMeshRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWMeshRoom.h; path = SkyWay.framework/Headers/SKWMeshRoom.h; sourceTree = "<group>"; };
+		6EDAE3FD2555E3119EB8238651072C92 /* SKWNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWNavigator.h; path = SkyWay.framework/Headers/SKWNavigator.h; sourceTree = "<group>"; };
+		79FD7DF04729A3E593AEF179EF14E6F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6577A67CD8E399F2228581A92329CD /* SKWAnswerOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWAnswerOption.h; path = SkyWay.framework/Headers/SKWAnswerOption.h; sourceTree = "<group>"; };
+		90BAAAA877FA4DC563B21F185224C5AF /* SKWPeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWPeer.h; path = SkyWay.framework/Headers/SKWPeer.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97CA4AB9DB1D79373C33F07783A53DE0 /* SKWCallOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWCallOption.h; path = SkyWay.framework/Headers/SKWCallOption.h; sourceTree = "<group>"; };
+		97CB013703CCB1047C2C2C26CC093CE9 /* Pods-MORY_mvp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MORY_mvp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CC3F9CCAF5B25E5430F90AAD773E586 /* SKWMediaConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWMediaConstraints.h; path = SkyWay.framework/Headers/SKWMediaConstraints.h; sourceTree = "<group>"; };
+		9CD2A40B4F2FFD9000B202B563AE7076 /* SKWMediaConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWMediaConnection.h; path = SkyWay.framework/Headers/SKWMediaConnection.h; sourceTree = "<group>"; };
+		9D5D9BD42AE1D2D8F8AFB6AA0CD50F5B /* SKWRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWRoom.h; path = SkyWay.framework/Headers/SKWRoom.h; sourceTree = "<group>"; };
+		A7E027AED0FA460D6FCE99290BCE0966 /* SKWPeerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWPeerCommon.h; path = SkyWay.framework/Headers/SKWPeerCommon.h; sourceTree = "<group>"; };
+		B506AA137BE6054A4E5133AC6DF32547 /* SKWSFURoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWSFURoom.h; path = SkyWay.framework/Headers/SKWSFURoom.h; sourceTree = "<group>"; };
+		BFFAE1559EF8EE2180CC3447E7DCDA3A /* Pods-MORY_mvp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MORY_mvp-frameworks.sh"; sourceTree = "<group>"; };
+		C0AD900807DE8C7B7E15754FEF3EAEB6 /* Pods_MORY_mvp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MORY_mvp.framework; path = "Pods-MORY_mvp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C968B4CA8CA310A88F2D19AA7DEFC09C /* Pods-MORY_mvp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MORY_mvp-dummy.m"; sourceTree = "<group>"; };
+		CDBE7CE1E44F01813FE13DA631616CFB /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
+		D3DE20EC45A8DF8DE21C40CD0357489B /* Pods-MORY_mvp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MORY_mvp.release.xcconfig"; sourceTree = "<group>"; };
+		D5CEB8623743447276A9FCEF983DA88C /* SKWIceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWIceConfig.h; path = SkyWay.framework/Headers/SKWIceConfig.h; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7B5CA8CFE1FB4C1BAA4E31192FD4564 /* SKWVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWVideo.h; path = SkyWay.framework/Headers/SKWVideo.h; sourceTree = "<group>"; };
+		D85C434239D736D5B9C11E24F7AF76E4 /* Pods-MORY_mvp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MORY_mvp-umbrella.h"; sourceTree = "<group>"; };
+		DD98162AC9891D3CC5F2A663BC2F8D77 /* SkyWay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyWay.h; path = SkyWay.framework/Headers/SkyWay.h; sourceTree = "<group>"; };
+		DDAFBF449397643FA31D8F1200736033 /* SKWConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWConnection.h; path = SkyWay.framework/Headers/SKWConnection.h; sourceTree = "<group>"; };
+		E35AEE0E63968C3FF5D6F67F588B28FD /* SKWRoomDataMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWRoomDataMessage.h; path = SkyWay.framework/Headers/SKWRoomDataMessage.h; sourceTree = "<group>"; };
+		E492DF18CC2B3B6D4B8ED459718058FE /* Pods-MORY_mvp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MORY_mvp-resources.sh"; sourceTree = "<group>"; };
+		E74D8E03536BE3CEE5F877F9DC3EEEE6 /* SKWDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWDataChannel.h; path = SkyWay.framework/Headers/SKWDataChannel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		622331754A742F09F2568CD70CFEDDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9208D5B22622E4A8368B56389137CECC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3115CBD26284C7937CB9CF50673B170D /* Pods-MORY_mvp */ = {
+			isa = PBXGroup;
+			children = (
+				79FD7DF04729A3E593AEF179EF14E6F7 /* Info.plist */,
+				17F46AFED1B78AEBCA6ACB324FDAFD38 /* Pods-MORY_mvp.modulemap */,
+				97CB013703CCB1047C2C2C26CC093CE9 /* Pods-MORY_mvp-acknowledgements.markdown */,
+				27C04C530493673EBA0DEDDA4DB268EA /* Pods-MORY_mvp-acknowledgements.plist */,
+				C968B4CA8CA310A88F2D19AA7DEFC09C /* Pods-MORY_mvp-dummy.m */,
+				BFFAE1559EF8EE2180CC3447E7DCDA3A /* Pods-MORY_mvp-frameworks.sh */,
+				E492DF18CC2B3B6D4B8ED459718058FE /* Pods-MORY_mvp-resources.sh */,
+				D85C434239D736D5B9C11E24F7AF76E4 /* Pods-MORY_mvp-umbrella.h */,
+				097C519660F3753229EA2B134E80E182 /* Pods-MORY_mvp.debug.xcconfig */,
+				D3DE20EC45A8DF8DE21C40CD0357489B /* Pods-MORY_mvp.release.xcconfig */,
+			);
+			name = "Pods-MORY_mvp";
+			path = "Target Support Files/Pods-MORY_mvp";
+			sourceTree = "<group>";
+		};
+		33E63EB79EF601A2CAAE05582F02DB94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3115CBD26284C7937CB9CF50673B170D /* Pods-MORY_mvp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5679D3F1C543C74BDB1085CF43389D9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6A8C9CD93526384D2C336497487D5AA /* SkyWay */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		741684A279D6EE3DED9917A90B1974E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD900807DE8C7B7E15754FEF3EAEB6 /* Pods_MORY_mvp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5679D3F1C543C74BDB1085CF43389D9B /* Pods */,
+				741684A279D6EE3DED9917A90B1974E7 /* Products */,
+				33E63EB79EF601A2CAAE05582F02DB94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B6A8C9CD93526384D2C336497487D5AA /* SkyWay */ = {
+			isa = PBXGroup;
+			children = (
+				7D6577A67CD8E399F2228581A92329CD /* SKWAnswerOption.h */,
+				97CA4AB9DB1D79373C33F07783A53DE0 /* SKWCallOption.h */,
+				1E7F763AAE8AB1926C18E35E0A54EDDC /* SKWCommon.h */,
+				DDAFBF449397643FA31D8F1200736033 /* SKWConnection.h */,
+				16E04EB1670B17B5CF80E72BFB0096B9 /* SKWConnectOption.h */,
+				E74D8E03536BE3CEE5F877F9DC3EEEE6 /* SKWDataChannel.h */,
+				08B0DEA7B955D5B4551E34BEC7E003B7 /* SKWDataConnection.h */,
+				5E8782930EEC4BF72D50AABB6DC7DDFA /* SKWHeaders.h */,
+				D5CEB8623743447276A9FCEF983DA88C /* SKWIceConfig.h */,
+				9CD2A40B4F2FFD9000B202B563AE7076 /* SKWMediaConnection.h */,
+				9CC3F9CCAF5B25E5430F90AAD773E586 /* SKWMediaConstraints.h */,
+				1D158CE7EBD00E38F5277C21A2A1E7F2 /* SKWMediaStream.h */,
+				67FAEA1ADB85AFBC6E8345214C38572B /* SKWMeshRoom.h */,
+				6EDAE3FD2555E3119EB8238651072C92 /* SKWNavigator.h */,
+				90BAAAA877FA4DC563B21F185224C5AF /* SKWPeer.h */,
+				A7E027AED0FA460D6FCE99290BCE0966 /* SKWPeerCommon.h */,
+				05AEB6653F5754535FF6F78344169C3D /* SKWPeerCredential.h */,
+				063962C21EFE62867D7A2B1D1AB1CBFA /* SKWPeerError.h */,
+				4D530C6D2BD5F2F43C202658E3E86C92 /* SKWPeerOption.h */,
+				9D5D9BD42AE1D2D8F8AFB6AA0CD50F5B /* SKWRoom.h */,
+				E35AEE0E63968C3FF5D6F67F588B28FD /* SKWRoomDataMessage.h */,
+				0D4A3D865ACC719EC679718C8BBA0102 /* SKWRoomOption.h */,
+				B506AA137BE6054A4E5133AC6DF32547 /* SKWSFURoom.h */,
+				D7B5CA8CFE1FB4C1BAA4E31192FD4564 /* SKWVideo.h */,
+				DD98162AC9891D3CC5F2A663BC2F8D77 /* SkyWay.h */,
+				B74D4592DF95DC085240B23543C8A5B4 /* Frameworks */,
+			);
+			name = SkyWay;
+			path = SkyWay;
+			sourceTree = "<group>";
+		};
+		B74D4592DF95DC085240B23543C8A5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE7CE1E44F01813FE13DA631616CFB /* SkyWay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A7F97AE08F244CA7F5C45ED4779FE09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250EACD36F1A2F5C1D053696030A9988 /* Pods-MORY_mvp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C115BB7D72170A4B090B38CD86E12288 /* Pods-MORY_mvp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023A1518C764C9DFD27CCC35BE8E9188 /* Build configuration list for PBXNativeTarget "Pods-MORY_mvp" */;
+			buildPhases = (
+				0A7F97AE08F244CA7F5C45ED4779FE09 /* Headers */,
+				1D0E5227B165D6DEF58EDFD10245B638 /* Sources */,
+				622331754A742F09F2568CD70CFEDDB2 /* Frameworks */,
+				2964E3BE802FB24CF097DF3122F0498D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MORY_mvp";
+			productName = "Pods-MORY_mvp";
+			productReference = C0AD900807DE8C7B7E15754FEF3EAEB6 /* Pods_MORY_mvp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 741684A279D6EE3DED9917A90B1974E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C115BB7D72170A4B090B38CD86E12288 /* Pods-MORY_mvp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2964E3BE802FB24CF097DF3122F0498D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0E5227B165D6DEF58EDFD10245B638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E18782740C37AE01D241946A24957D /* Pods-MORY_mvp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F9BD5F3A2C33B179AD239F8DFF146522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DE20EC45A8DF8DE21C40CD0357489B /* Pods-MORY_mvp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MORY_mvp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MORY_mvp/Pods-MORY_mvp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD8DE5274A5F1549373E8A2BC2BAC017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097C519660F3753229EA2B134E80E182 /* Pods-MORY_mvp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MORY_mvp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MORY_mvp/Pods-MORY_mvp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023A1518C764C9DFD27CCC35BE8E9188 /* Build configuration list for PBXNativeTarget "Pods-MORY_mvp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8DE5274A5F1549373E8A2BC2BAC017 /* Debug */,
+				F9BD5F3A2C33B179AD239F8DFF146522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
