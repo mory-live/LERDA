@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AA2BE3221A69C53006AFAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2BE3121A69C53006AFAFE /* AppDelegate.swift */; };
+		6AA2BE3421A69C53006AFAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2BE3321A69C53006AFAFE /* ViewController.swift */; };
+		6AA2BE3721A69C53006AFAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2BE3521A69C53006AFAFE /* Main.storyboard */; };
+		6AA2BE3921A69C56006AFAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2BE3821A69C56006AFAFE /* Assets.xcassets */; };
+		6AA2BE3C21A69C56006AFAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2BE3A21A69C56006AFAFE /* LaunchScreen.storyboard */; };
+		949103E42498920964BB7826 /* Pods_MORY_mvp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCEE8697728DE16CA7E8EA6 /* Pods_MORY_mvp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6AA2BE2E21A69C53006AFAFE /* MORY_mvp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MORY_mvp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA2BE3121A69C53006AFAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AA2BE3321A69C53006AFAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AA2BE3621A69C53006AFAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AA2BE3821A69C56006AFAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AA2BE3B21A69C56006AFAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AA2BE3D21A69C56006AFAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCEE8697728DE16CA7E8EA6 /* Pods_MORY_mvp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MORY_mvp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D257BDBF86983ECC65AF8E83 /* Pods-MORY_mvp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MORY_mvp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MORY_mvp/Pods-MORY_mvp.release.xcconfig"; sourceTree = "<group>"; };
+		DD42BF45E933BC2575D6BEFF /* Pods-MORY_mvp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MORY_mvp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MORY_mvp/Pods-MORY_mvp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA2BE2B21A69C53006AFAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949103E42498920964BB7826 /* Pods_MORY_mvp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AA2BE2521A69C53006AFAFE = {
+			isa = PBXGroup;
+			children = (
+				6AA2BE3021A69C53006AFAFE /* MORY_mvp */,
+				6AA2BE2F21A69C53006AFAFE /* Products */,
+				FD6D46C64932BD83F10EEC2E /* Pods */,
+				834F76867CEF07C249DF2B46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AA2BE2F21A69C53006AFAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2BE2E21A69C53006AFAFE /* MORY_mvp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA2BE3021A69C53006AFAFE /* MORY_mvp */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2BE3121A69C53006AFAFE /* AppDelegate.swift */,
+				6AA2BE3321A69C53006AFAFE /* ViewController.swift */,
+				6AA2BE3521A69C53006AFAFE /* Main.storyboard */,
+				6AA2BE3821A69C56006AFAFE /* Assets.xcassets */,
+				6AA2BE3A21A69C56006AFAFE /* LaunchScreen.storyboard */,
+				6AA2BE3D21A69C56006AFAFE /* Info.plist */,
+			);
+			path = MORY_mvp;
+			sourceTree = "<group>";
+		};
+		834F76867CEF07C249DF2B46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCEE8697728DE16CA7E8EA6 /* Pods_MORY_mvp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6D46C64932BD83F10EEC2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD42BF45E933BC2575D6BEFF /* Pods-MORY_mvp.debug.xcconfig */,
+				D257BDBF86983ECC65AF8E83 /* Pods-MORY_mvp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AA2BE2D21A69C53006AFAFE /* MORY_mvp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA2BE4021A69C56006AFAFE /* Build configuration list for PBXNativeTarget "MORY_mvp" */;
+			buildPhases = (
+				F0E82E544262FF995A1352B3 /* [CP] Check Pods Manifest.lock */,
+				6AA2BE2A21A69C53006AFAFE /* Sources */,
+				6AA2BE2B21A69C53006AFAFE /* Frameworks */,
+				6AA2BE2C21A69C53006AFAFE /* Resources */,
+				A28F9E52EC6CC681263EB8FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MORY_mvp;
+			productName = MORY_mvp;
+			productReference = 6AA2BE2E21A69C53006AFAFE /* MORY_mvp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA2BE2621A69C53006AFAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Wataru Yasuda";
+				TargetAttributes = {
+					6AA2BE2D21A69C53006AFAFE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6AA2BE2921A69C53006AFAFE /* Build configuration list for PBXProject "MORY_mvp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AA2BE2521A69C53006AFAFE;
+			productRefGroup = 6AA2BE2F21A69C53006AFAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AA2BE2D21A69C53006AFAFE /* MORY_mvp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AA2BE2C21A69C53006AFAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA2BE3C21A69C56006AFAFE /* LaunchScreen.storyboard in Resources */,
+				6AA2BE3921A69C56006AFAFE /* Assets.xcassets in Resources */,
+				6AA2BE3721A69C53006AFAFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A28F9E52EC6CC681263EB8FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MORY_mvp/Pods-MORY_mvp-frameworks.sh",
+				"${PODS_ROOT}/SkyWay/SkyWay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyWay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MORY_mvp/Pods-MORY_mvp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E82E544262FF995A1352B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MORY_mvp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA2BE2A21A69C53006AFAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA2BE3421A69C53006AFAFE /* ViewController.swift in Sources */,
+				6AA2BE3221A69C53006AFAFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AA2BE3521A69C53006AFAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA2BE3621A69C53006AFAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AA2BE3A21A69C56006AFAFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA2BE3B21A69C56006AFAFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AA2BE3E21A69C56006AFAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AA2BE3F21A69C56006AFAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AA2BE4121A69C56006AFAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD42BF45E933BC2575D6BEFF /* Pods-MORY_mvp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L665ZHJ2B;
+				INFOPLIST_FILE = MORY_mvp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.saisentan.MORY-mvp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AA2BE4221A69C56006AFAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D257BDBF86983ECC65AF8E83 /* Pods-MORY_mvp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L665ZHJ2B;
+				INFOPLIST_FILE = MORY_mvp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.saisentan.MORY-mvp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA2BE2921A69C53006AFAFE /* Build configuration list for PBXProject "MORY_mvp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA2BE3E21A69C56006AFAFE /* Debug */,
+				6AA2BE3F21A69C56006AFAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA2BE4021A69C56006AFAFE /* Build configuration list for PBXNativeTarget "MORY_mvp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA2BE4121A69C56006AFAFE /* Debug */,
+				6AA2BE4221A69C56006AFAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AA2BE2621A69C53006AFAFE /* Project object */;
+}
